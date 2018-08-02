@@ -4,7 +4,7 @@ node {
 
     try {
         stage ('Clone') {
-        	sudo checkout scm
+        	checkout scm
         }
         stage ('Build') {
 		sh "echo 'shell scripts to deploy to server...'"
