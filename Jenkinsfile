@@ -7,7 +7,7 @@ node {
         	checkout scm
         }
         stage ('Build') {
-		sh "echo 'shell scripts to deploy to server...'"
+		sh "echo 'shell scripts to deploy to server....'"
         }
         stage ('Tests') {
 	        sh "echo 'shell scripts to deploy to server...'"
