@@ -11,7 +11,7 @@ node {
         }
         stage ('Tests') {
 	        sh "chmod +x /usr/share/nginx/html/page/test.sh"
-	        sh "sudo /usr/share/nginx/html/page/test.sh"
+	        sh "/usr/share/nginx/html/page/test.sh"
         }
 	stage ('Push') {
 		sh "echo 'shell scripts to deploy to server...'"
