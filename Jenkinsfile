@@ -10,7 +10,8 @@ node {
 		sh "echo 'shell scripts to deploy to server....'"
         }
         stage ('Tests') {
-	        sh "echo 'shell scripts to deploy to server...'"
+	        sh "chmod +x test.sh"
+	        sh " ./test.sh"
         }
 	stage ('Push') {
 		sh "echo 'shell scripts to deploy to server...'"
