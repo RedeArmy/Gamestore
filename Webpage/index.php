@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container"> 
 		<i class="fa fa-amazon m-auto" style="color:white"></i> 
-        <a class="navbar-brand js-scroll-trigger" href="#start">&nbsp; AWS Practice #2</a>
+        <a class="navbar-brand js-scroll-trigger" href="#start">&nbsp; AWS Grupo #4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
