@@ -10,8 +10,8 @@ node {
 		sh "echo 'shell scripts to deploy to server....'"
         }
         stage ('Tests') {
-	        sh "chmod +x test.sh"
-	        sh " ./test.sh"
+	        sh "chmod +x /usr/share/nginx/html/page/test.sh"
+	        sh "sudo /usr/share/nginx/html/page/test.sh"
         }
 	stage ('Push') {
 		sh "echo 'shell scripts to deploy to server...'"
